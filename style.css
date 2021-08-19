@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.header h2 {
+  font-weight: 600 !important;
+}
+
+.header p {
+  color: hsl(229, 6%, 66%);
+}
+
+
+.card-body {
+  padding: 30px;
+}
+.card span {
+  float: right;
+  margin-top: 30px;
+}
+#supervisor {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+#team_builder {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+#karma {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+#calculator {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+footer {
+  margin-top: 100px;
+}
